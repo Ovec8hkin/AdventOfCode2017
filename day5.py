@@ -61,7 +61,7 @@ def part2():
         while not escaped:
 
             if index < 0 or index > len(jumps)-1:
-                break;
+                break
 
             jump = jumps[index]
 
